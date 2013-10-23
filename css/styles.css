@@ -186,3 +186,26 @@ footer {
 	margin: 0px;
 	text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .content-box {
+        width: 100%;
+    }
+
+    .motto{
+        display: none;
+    }
+
+    /* stack columns instead of side-by-side */
+    .col {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 16px;
+    }
+}
